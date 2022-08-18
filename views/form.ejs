@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" type="text/css" href="/styles.css">
+        <title>Mini Message Board</title>
+    </head>
+    <body>
+        <h1>Create a New Message</h1>
+
+        <nav>
+            <a href="/">Home</a>
+            <a href="/new">New Message</a>
+        </nav>
+
+        <form method="POST" action="/new">
+            <label name="messageUser">Name:</label>
+            <input type="text" name="messageUser" placeholder="Your name" >
+            <label name="messageText">Message:</label>
+            <textarea name="messageText" placeholder="Your message"></textarea> 
+            <button type="submit">Submit</button>  
+        </form>
+    </body>
+</html>

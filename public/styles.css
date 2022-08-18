@@ -1,0 +1,62 @@
+body {
+    background-color: #cceeff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+a {
+    margin-right: 1em;
+    margin-left: 1em;
+    color: #242424;
+}
+
+a:hover {
+    color:  #84847e;
+}
+
+nav {
+    margin-bottom: 3em;
+}
+
+div {
+    border: 2px solid #242424;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    background-color: #ffff;
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 1em;
+    width: 15em;
+    font: inherit;
+}
+
+button {
+    border: none;
+    background-color: #ffff;
+    cursor: pointer;
+    width: 4em;
+    height: 2em;
+    font: inherit;
+}
+
+button:hover {
+    background-color: #84847e;
+    color: #ffff;
+}
+
+
+
